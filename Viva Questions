@@ -1,0 +1,245 @@
+Bias: It is a deliberate or involuntary favoring of one class over the other potential outcomes in a chosen set of data. 
+
+
+It is a kind of error in a machine learning model when an ML Algorithm is oversimplified. When a model is trained, at that time it makes simplified assumptions so that it can easily understand the target function. Some algorithms that have low bias are Decision Trees, SVM, etc. On the other hand, logistic and linear regression algorithms are the ones with a high bias.
+
+
+Variance: It is a measure of how far a set of numbers is spread out from their mean value. It is the average of square deviations from the mean. 
+
+
+Variance is also a kind of error. It is introduced into an ML Model when an ML algorithm is made highly complex. This model also learns noise from the data set that is meant for training. It further performs badly on the test data set. This may lead to over lifting as well as high sensitivity.
+
+
+OPTIMAL MODEL: It is very essential that any machine learning model has low variance as well as a low bias so that it can achieve good performance.
+
+
+The K-Nearest Neighbor Algorithm AND SVM are good examples of an algorithm with low bias and high variance. This trade-off can easily be reversed by increasing the k value which in turn results in increasing the number of neighbours. This, in turn, results in increasing the bias and reducing the variance.
+
+
+P-value: It is a probability value which tells us that how likely your data have been occurred by random chance. (null  hypo is true)
+
+
+
+    A p-value less than 0.05 (typically ≤ 0.05) is statistically significant. It indicates strong evidence against the null hypothesis, as there is less than a 5% probability the null is correct (and the results are random). Therefore, we reject the null hypothesis, and accept the alternative hypothesis.
+    A p-value higher than 0.05 (> 0.05) is not statistically significant and indicates strong evidence for the null hypothesis. This means we retain the null hypothesis and reject the alternative hypothesis. You should note that you cannot accept the null hypothesis, we can only reject the null or fail to reject it.
+
+
+Imbalanced Data: Data is said to be highly imbalanced when it is distributed unequally across different categories. These datasets result in an error in model performance and result in inaccuracy.
+
+
+Null hypothesis: It states that there is no true relationship between the two variables (i.e. independent variable does not affect the dependent one). It states the results are due to chance and are not significant in terms of supporting the idea being investigated.
+
+
+Alternative Hypo: The alternative hypothesis states that the independent variable did affect the dependent variable, and the results are significant in terms of supporting the theory being investigated (i.e. not due to chance).
+
+
+Survivorship Bias: This bias refers to the logical error while focusing on aspects that survived some process and overlooking those that did not work due to lack of prominence. This bias can lead to deriving wrong conclusions.
+
+
+KPI: KPI stands for Key Performance Indicator that measures how well the business achieves its objectives.
+
+Lift: This is a performance measure of the target model measured against a random choice model.
+
+Model fitting: This indicates how well the model under consideration fits given observations.
+
+Robustness: This represents the system’s capability to handle differences and variances effectively.
+
+DOE: stands for the design of experiments, which represents the task design aiming to describe and explain information variation under hypothesized conditions to reflect variables.
+
+
+Selection Bias: 
+
+The selection bias occurs in the case when the researcher has to make a decision on which participant to study. The selection bias is associated with those researches when the participant selection is not random.
+
+
+    Sampling Bias: As a result of a population that is not random at all, some members of a population have fewer chances of getting included than others, resulting in a biased sample. This causes a systematic error known as sampling bias.
+    Data: It is when specific data is selected arbitrarily and the generally agreed criteria are not followed.
+    Attrition: Attrition in this context means the loss of the participants. It is the discounting of those subjects that did not complete the trial
+
+
+
+Confusion Matrix: It is a matrix that has 2 rows and 2 columns. It has 4 outputs that a binary classifier provides to it. It is used to derive various measures like specificity, error rate, accuracy, precision, sensitivity, and recall.
+
+
+The test data set should contain the correct and predicted labels. The labels depend upon the performance. For instance, the predicted labels are the same if the binary classifier performs perfectly.
+
+
+True Positive: This means that the positive prediction is correct.
+
+False Positive: This means that the positive prediction is incorrect.
+
+True Negative: This means that the negative prediction is correct.
+
+False Negative: This means that the negative prediction is incorrect.
+
+
+Error rate: (FP + FN)/(P + N)
+
+Accuracy: (TP + TN)/(P + N)
+
+Sensitivity = TP/P
+
+Specificity = TN/N
+
+Precision = TP/(TP + FP)
+
+F-Score  = (1 + b)(PREC.REC)/(b2 PREC + REC) Here, b is mostly 0.5 or 1 or 2.
+
+
+Sensitivity is the measure of the True Positive Rate. It is also called recall.
+Specificity is the measure of the true negative rate.
+Precision is the measure of a positive predicted value.
+F-score is the harmonic mean of precision and recall
+
+
+Logistic Regression: 
+
+It is a technique to predict the binary outcome from a linear combination of variables (called the predictor variables). 
+
+For example, let us say that we want to predict the outcome of elections for a particular political leader. So, we want to find out whether this leader is going to win the election or not. So, the result is binary i.e. win (1) or loss (0). However, the input is a combination of linear variables like the money spent on advertising, the past work done by the leader and the party, etc.
+
+
+Linear Regression: It is a technique in which the score of a variable Y is predicted using the score of a predictor variable X. Y is called the criterion variable. Some of the drawbacks of Linear Regression are as follows:
+
+
+The assumption of linearity of errors is a major drawback.
+
+It cannot be used for binary outcomes. We have Logistic Regression for that.
+
+Overfitting problems are there that can’t be solved.
+
+
+Random Forest: 
+
+We have various classification algorithms in machine learning like logistic regression, support vector machine, decision trees, Naïve Bayes classifier, etc.
+
+
+It consists of a large number of decision trees that operate as an ensemble. Basically, each tree in the forest gives a class prediction and the one with the maximum number of votes becomes the prediction of our model.
+
+
+Deep Learning: 
+
+In deep learning,  multiple layers of processing are involved in order to extract high features from the data. The neural networks are designed in such a way that they try to simulate the human brain. 
+
+
+Gradient: Gradient is the measure of a property that how much the output has changed with respect to a little change in the input. In other words, we can say that it is a measure of change in the weights with respect to the change in error. The gradient can be mathematically represented as the slope of a function.
+
+
+b= a- $delf(a)
+
+
+Gradient Descent: It is a minimization algorithm that minimizes the Activation function. 
+
+
+So, if a person is climbing down the hill, the next position that the climber has to come to is denoted by “b” in this equation. Then, there is a minus sign because it denotes the minimization (as gradient descent is a minimization algorithm). The Gamma is called a waiting factor and the remaining term which is the Gradient term itself shows the direction of the steepest descent. 
+
+
+We are somewhere at the “Initial Weights” and we want to reach the Global minimum. So, this minimization algorithm will help us do that.
+
+
+DIFFERENCE BETWEEN TIME SERIES PROBLEMS AND REGRESSION PROBLEMS  
+
+
+Time series data can be thought of as an extension to linear regression which uses terms like autocorrelation, movement of averages for summarizing historical data of y-axis variables for predicting a better future.
+
+
+The relationship between target and time is utmost for a problem to become a time series problem. Ex. weather and flood prediction 
+
+
+RMSE: It is used to evaluate the data spread around the line of best fit. So, in simple words, it is used to measure the deviation of the residuals.
+
+
+
+MSE: Mean Squared Error is used to find how close is the line to the actual data. 
+
+
+Support Vectors in SVM: 
+
+Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane. These are the points that help us build our SVM. 
+
+
+
+Let’s say your laptop’s RAM is only 4GB and you want to train your model on 10GB data set. What will you do? Have you experienced such an issue before?
+In such types of questions, we first need to ask what ML model we have to train. After that, it depends on whether we have to train a model based on Neural Networks or SVM.
+
+
+
+The steps for Neural Networks are given below:
+
+    The Numpy array can be used to load the entire data. It will never store the entire data, rather just create a mapping of the data.
+    Now, in order to get some desired data, pass the index into the NumPy Array.
+    This data can be used to pass as an input to the neural network maintaining a small batch size.
+
+The steps for SVM are given below:
+
+    For SVM, small data sets can be obtained. This can be done by dividing the big data set.
+    The subset of the data set can be obtained as an input if using the partial fit function.
+    Repeat the step of using the partial fit method for other subsets as well.
+
+
+Neural Network fundamentals: 
+
+In the human brain, different neurons are present. These neurons combine and perform various tasks. The Neural Network in deep learning tries to imitate human brain neurons. The neural network learns the patterns from the data and uses the knowledge that it gains from various patterns to predict the output for new data, without any human assistance.
+
+
+A perceptron is the simplest neural network that contains a single neuron that performs 2 functions. The first function is to perform the weighted sum of all the inputs and the second is an activation function. 
+
+
+Complex Neural Networks: 
+
+Input Layer: The neural network has the input layer to receive the input.
+
+Hidden Layer: There can be multiple hidden layers between the input layer and the output layer. The initially hidden layers are used for detecting the low-level patterns whereas the further layers are responsible for combining output from previous layers to find more patterns.
+
+Output Layer: This layer outputs the prediction.
+
+
+Computational Graph: 
+
+Everything in the famous deep learning library TensorFlow is based on the computational graph. The computational graph in Tensorflow has a network of nodes where each node operates. The nodes of this graph represent operations and the edges represent tensors
+
+
+Auto-Encoders: They are learning networks. They transform inputs into outputs with minimum possible errors. The inputs that the thin hidden layers receive are unlabeled which are then encoded and output is passed onto other layers. 
+
+
+How will you deal with a dataset having missing values of more than 30%? 
+
+Depending on the size of the dataset, we follow the below ways:
+
+    In case the datasets are small, the missing values are substituted with the mean or average of the remaining data. In pandas, this can be done by using mean = df.mean() where df represents the pandas dataframe representing the dataset and mean() calculates the mean of the data. To substitute the missing values with the calculated mean, we can use df.fillna(mean).
+    For larger datasets, the rows with missing values can be removed and the remaining data can be used for data prediction
+
+
+Cross Validation: 
+
+It is a Statistical technique used for improving a model’s performance. Here, the model will be trained and tested with rotation using different samples of the training dataset to ensure that the model performs well for unknown data. The training data will be split into various groups and the model is run and validated against these groups in rotation.
+
+
+The most commonly used techniques are:
+
+    K- Fold method
+    Leave p-out method
+    Leave-one-out method
+    Holdout method
+
+
+
+Correlation: This technique is used to measure and estimate the quantitative relationship between two variables and is measured in terms of how strong are the variables related.
+
+Covariance: It represents the extent to which the variables change together in a cycle. This explains the systematic relationship between pair of variables where changes in one affect changes in another variable
+
+
+correlation(X,Y) = covariance(X,Y)/(covariance(X) covariance(Y))
+
+
+Correlation is dimensionless whereas covariance is represented in units that are obtained from the multiplication of units of two variables.
+
+
+
+
+Linear Regression Assumptions: 
+
+
+Logistic Regression Assumptions: 
+
+
