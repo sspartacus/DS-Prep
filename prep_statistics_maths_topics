@@ -1,0 +1,72 @@
+Complete Statistics & Mathematics topic wise list required for data/business analyst role:-
+
+1. Descriptive Statistics:
+  - Measures of central tendency (mean, median, mode)
+  - Measures of dispersion (variance, standard deviation)
+  - Percentiles and quartiles
+  - Skewness and kurtosis
+  - Histograms and frequency distributions
+
+2. Probability:
+  - Basic concepts of probability (sample space, events, outcomes)
+  - Probability rules (addition, multiplication)
+  - Conditional probability
+  - Bayes' theorem
+  - Probability distributions (binomial, normal, Poisson)
+
+3. Inferential Statistics:
+  - Hypothesis testing (null and alternative hypotheses)
+  - Types of errors (Type I and Type II errors)
+  - Confidence intervals
+  - Sampling techniques (random sampling, stratified sampling)
+  - Central Limit Theorem
+  - t-tests (paired and unpaired)
+  - Analysis of variance (ANOVA)
+  - Chi-square tests
+
+4. Regression Analysis:
+  - Simple linear regression
+  - Multiple linear regression
+  - Assumptions of regression analysis
+  - Model evaluation (R-squared, adjusted R-squared, residual analysis)
+  - Interpreting regression coefficients
+  - Logistic regression (binary and multinomial)
+
+5. Time Series Analysis:
+  - Time series components (trend, seasonality, cyclicality, noise)
+  - Smoothing techniques (moving averages, exponential smoothing)
+  - ARIMA models (AutoRegressive Integrated Moving Average)
+  - Forecasting methods (exponential smoothing, ARIMA, trend analysis)
+
+6. Data Visualization:
+  - Charts and graphs (bar charts, line charts, scatter plots, histograms)
+  - Box plots
+  - Heatmaps
+  - Data dashboards
+  - Effective data visualization principles
+  - Using tools like Excel, Tableau, or Python libraries (Matplotlib, Seaborn)
+
+7. Linear Algebra:
+  - Matrix operations (addition, subtraction, multiplication)
+  - Systems of linear equations
+  - Determinants
+  - Eigenvalues and eigenvectors
+
+8. Optimization:
+  - Linear programming
+  - Integer programming
+  - Non-linear programming
+  - Constraint optimization
+
+9. Discrete Mathematics:
+  - Set theory
+  - Combinatorics (permutations, combinations)
+  - Probability and counting principles
+  - Graph theory (networks, paths, connectivity)
+
+10. Data Manipulation and Analysis:
+  - Data cleaning and preprocessing
+  - Exploratory data analysis (EDA)
+  - Data transformation (normalization, standardization)
+  - Database querying (SQL)
+  - Data wrangling using tools like Python (NumPy, Pandas)
